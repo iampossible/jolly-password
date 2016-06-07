@@ -39,11 +39,12 @@ function _cardinalNumber(num){
     case 80: return 'eighty';
     case 90: return 'ninety';
     default:
-      if(_number>21){
+      if(_number>=21){
         let d = _number.toString().split("").shift()*10;
         let u = _number.toString().split("").pop();
         return [d,u].map(_cardinalNumber).join(" ")
       }
+      throw new Error("ups! could not generate with " + _number)
   }
   
 }
