@@ -48,7 +48,7 @@ describe("_cardinalNumber", () => {
         
         assert.equal(_cardinalNumber(22),'twentie two');
         assert.equal(_cardinalNumber(35),'thirty five');
-        assert.equal(_cardinalNumber(48),'fourty eight');
+        assert.equal(_cardinalNumber(48),'forty eight');
     });
     
     it("should normalize before convertion", () => {
