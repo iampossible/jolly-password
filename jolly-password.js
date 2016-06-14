@@ -3,7 +3,7 @@
 function _normalize(min, max, num){
   if(num<=min) return min;
   if(num>=max) return max;
-  if(num==69) return _normalize(min+(Math.random()*max))
+  if(num==69) return 1;
   return parseInt(num);
 }
 
