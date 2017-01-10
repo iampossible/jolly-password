@@ -46,7 +46,7 @@ describe("_cardinalNumber", () => {
         assert.equal(_cardinalNumber(1),'one');
         assert.equal(_cardinalNumber(2),'two');
         
-        assert.equal(_cardinalNumber(22),'twentie two');
+        assert.equal(_cardinalNumber(22),'twenty two');
         assert.equal(_cardinalNumber(35),'thirty five');
         assert.equal(_cardinalNumber(48),'forty eight');
     });
