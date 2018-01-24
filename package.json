@@ -1,6 +1,6 @@
 {
   "name": "jolly-password",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "attempt at a colorful and jolly password generator",
   "main": "jolly-password.js",
   "scripts": {
