@@ -63,8 +63,8 @@ function _randLineFromFile(file){
 function generate() {
   return  [
       _cardinalNumber(Math.random()*100),
-      _randLineFromFile('./data/words.txt'),
-      _randLineFromFile('./data/animals.txt') + "s"
+      _randLineFromFile('data/words.txt'),
+      _randLineFromFile('data/animals.txt') + "s"
       ].join(" ");
 }
 
